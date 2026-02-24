@@ -1,0 +1,7 @@
+{
+    "validUser": "challengeqa",
+    "validPass": "Abcd1234",
+    "invalidUser": "invalidUser",
+    "invalidPass": "invalidPass",
+    "forgotEmail": "testuser@example.com"
+}

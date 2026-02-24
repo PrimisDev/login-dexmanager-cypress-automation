@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cypress videos y screenshots (artefactos de ejecución)
+cypress/videos/
+cypress/screenshots/
+
+# Archivos de entorno
+.env
+.env.*
+cypress.env.json
+
+# Coverage (si agregás cobertura en el futuro)
+coverage/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# MacOS
+.AppleDouble
+.LSOverride
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
