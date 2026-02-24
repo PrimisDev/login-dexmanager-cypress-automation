@@ -27,16 +27,27 @@ Este proyecto implementa automatización E2E utilizando Cypress, aplicando el pa
 
 ## 📁 Estructura del Proyecto
 cypress/
+
 ├── e2e/
+
     └── login.cy.js # Casos de prueba
+
 ├── fixtures/
+
         └── loginData.json # Datos de prueba
+
 ├── pages/
+
     └── LoginPage.js # Implementación del Page Object
+
 ├── support/
+
         └── e2e.js # Configuración global
+
 cypress.config.js
+
 package.json
+
 README.md
 
 ---
@@ -89,7 +100,7 @@ Beneficios:
 ## ▶️ Instalación
 
 ### Clonar el repositorio
-- git clone <url-del-repositorio>
+- git clone https://github.com/PrimisDev/login-dexmanager-cypress-automation
 - cd cypress-challenge/
 
 ### Seleccionar version de Node
