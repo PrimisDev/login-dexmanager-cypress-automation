@@ -103,11 +103,17 @@ Beneficios:
 - git clone https://github.com/PrimisDev/login-dexmanager-cypress-automation
 - cd cypress-challenge/
 
+### Levantar Shell (si es necesario)
+- source ~/.zshrc #En mi caso es necesario levantar shell debido a una configuracion especial de mi macOS
+
 ### Seleccionar version de Node
 - nvm use 20
 
 ### Instalar dependencias
 - npm install
+
+### Iniciar Cypress
+- npx cypress open
 
 ---
 
@@ -123,12 +129,14 @@ baseUrl: https://demo4.dexmanager.com
 
 ## ▶️ Ejecución de Tests
 ### Modo Interactivo
+- cd cypress-challenge/
 - npm run cy:open
 - E2E Testing
 - Navegador
 - login.cy.js
 
 ### Modo Headless
+- cd cypress-challenge/
 - npm run cy:run
 
 ---
